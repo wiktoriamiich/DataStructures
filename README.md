@@ -1,44 +1,43 @@
-# 📚 DataStructures – Interaktywny system struktur danych w C++
+# 📚 DataStructures – Interactive Data Structures System in C++
 
-Projekt zawiera implementacje podstawowych struktur danych w języku C++ oraz prosty interfejs tekstowy umożliwiający interaktywne testowanie tych struktur z poziomu terminala.
-
----
-
-## 🧩 Co zawiera projekt?
-
-- 🧱 **Dynamiczne struktury danych**: m.in. listy, stosy, kolejki (w przygotowaniu)
-- 🧠 **Własnoręczne zarządzanie pamięcią** – bez STL
-- 🖥️ **Interaktywne menu w konsoli** – umożliwia wybór struktur i operacji
-- 📂 Przejrzysty podział katalogów: `structures/`, `menu/`, `data/`, `utilities/`
+This project provides implementations of fundamental data structures in C++ and a simple text-based interface that allows interactive testing of these structures directly from the terminal.
 
 ---
 
-## 📂 Struktura katalogów
+## 🧩 What does the project include?
 
-| Folder       | Zawartość                                                                 |
-|--------------|---------------------------------------------------------------------------|
-| `structures/` | Implementacje struktur danych (np. listy jednokierunkowej, dwukierunkowej) |
-| `menu/`       | Kod odpowiedzialny za wyświetlanie i obsługę menu w terminalu             |
-| `data/`       | Przykładowe dane / testowe struktury / szkieletowe funkcje                |
-| `utilities/`  | Funkcje pomocnicze (np. walidacja danych, komunikaty)                     |
-| `main.cpp`    | Punkt startowy aplikacji, integruje wszystko w jedno działające menu      |
+- 🧱 **Dynamic data structures**: e.g., linked lists, stacks, queues *(in progress)*
+- 🧠 **Manual memory management** – no STL usage
+- 🖥️ **Interactive console menu** – choose structures and operations
+- 📂 Clean folder structure: `structures/`, `menu/`, `data/`, `utilities/`
 
 ---
 
-## 🧪 Jak działa aplikacja?
+## 📂 Project Structure
 
-Po uruchomieniu programu wyświetlane jest interaktywne **menu w konsoli**, które umożliwia wybór struktury oraz operacji na niej.
-
-📸 Przykład działania:
-![{B5DB2043-1B64-4388-8B64-7691C4D9BA9B}](https://github.com/user-attachments/images/2ca3d5f1-c2a2-423b-b98e-cc39090339d5)
-![{9400877C-66CC-4DA5-97B9-44451DCECF76}](https://github.com/user-attachments/images/40c97f2d-4cb9-4dd8-9150-f6c1f5485bf0)
-
+| Folder        | Contents                                                                   |
+|---------------|----------------------------------------------------------------------------|
+| `structures/` | Implementations of data structures (e.g., singly/doubly linked lists)       |
+| `menu/`       | Code responsible for displaying and handling the console menu               |
+| `data/`       | Sample data / test structures / placeholder functions                       |
+| `utilities/`  | Helper functions (e.g., data validation, messages)                          |
+| `main.cpp`    | Entry point of the application, integrates all components into a working menu |
 
 ---
 
-## ▶️ Jak uruchomić?
+## 🧪 How does it work?
 
-1. Sklonuj repozytorium:
+After launching the program, an interactive **console menu** is displayed, allowing you to choose a data structure and perform operations on it.
+
+📸 Example in action:  
+![Console Example 1](https://github.com/user-attachments/images/2ca3d5f1-c2a2-423b-b98e-cc39090339d5)  
+![Console Example 2](https://github.com/user-attachments/images/40c97f2d-4cb9-4dd8-9150-f6c1f5485bf0)
+
+---
+
+## ▶️ How to run?
+
+1. **Clone the repository:**
 
 ```bash
 git clone https://github.com/wiktoriamiich/DataStructures.git

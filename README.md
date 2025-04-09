@@ -1,57 +1,64 @@
 # 📚 DataStructures – Interactive Data Structures System in C++
 
-This project provides implementations of fundamental data structures in C++ and a simple text-based interface that allows interactive testing of these structures directly from the terminal.
+This project offers implementations of fundamental data structures in C++ and provides a simple text-based interface for interactive testing directly from the terminal.
 
 ---
 
-## 🧩 What does the project include?
+## 🧩 Project Features
 
-- 🧱 **Dynamic data structures**: e.g., linked lists, stacks, queues *(in progress)*
-- 🧠 **Manual memory management** – no STL usage
-- 🖥️ **Interactive console menu** – choose structures and operations
-- 📂 Clean folder structure: `structures/`, `menu/`, `data/`, `utilities/`
-
----
-
-## 📂 Project Structure
-
-| Folder        | Contents                                                                   |
-|---------------|----------------------------------------------------------------------------|
-| `structures/` | Implementations of data structures (e.g., singly/doubly linked lists)       |
-| `menu/`       | Code responsible for displaying and handling the console menu               |
-| `data/`       | Sample data / test structures / placeholder functions                       |
-| `utilities/`  | Helper functions (e.g., data validation, messages)                          |
-| `main.cpp`    | Entry point of the application, integrates all components into a working menu |
+- 🧱 **Dynamic Data Structures**: Implementations include:
+  - Dynamic Array
+  - Singly Linked List with 
+  - Doubly Linked List
+- 🧠 **Manual Memory Management**: Emphasis on understanding memory allocation without relying on the Standard Template Library (STL).
+- 🖥️ **Interactive Console Menu**: Navigate and perform operations on data structures through a user-friendly terminal interface.
+- 📂 **Organized Directory Structure**:
+  - `structures/`: Contains implementations of various data structures.
+  - `menu/`: Manages the display and functionality of the console menu.
+  - `data/`: Holds sample data and test structures.
+  - `utilities/`: Includes helper functions such as data validation and messaging.
 
 ---
 
-## 🧪 How does it work?
+## 📂 Folder Overview
 
-After launching the program, an interactive **console menu** is displayed, allowing you to choose a data structure and perform operations on it.
-
-📸 Example in action:  
-![Console Example 1](https://github.com/user-attachments/images/2ca3d5f1-c2a2-423b-b98e-cc39090339d5)  
-![Console Example 2](https://github.com/user-attachments/images/40c97f2d-4cb9-4dd8-9150-f6c1f5485bf0)
+- **`structures/`** – Implementations of data structures (e.g., dynamic array, singly linked list, doubly linked list).
+- **`menu/`** – Code responsible for displaying and handling the console menu.
+- **`data/`** – Sample data, test structures, and placeholder functions.
+- **`utilities/`** – Helper functions like data validation and messaging.
+- **`main.cpp`** – Entry point of the application, integrating all components into a functional menu-driven program.
 
 ---
 
-## ▶️ How to run?
+## 🧪 How It Works
 
-1. **Clone the repository:**
+When you run the application, an interactive **console menu** is displayed. It allows users to select a data structure and perform various operations such as insertion, deletion, and display.
 
-```bash
-git clone https://github.com/wiktoriamiich/DataStructures.git
-cd DataStructures
-```
-2. Skompiluj program:
+![{822E4C46-9BBC-4F27-B3BB-134F1B5AD67D}](https://github.com/user-attachments/assets/f229368b-b463-4746-99b8-74e0cebe74d4)
+
+![{F9140A50-9A62-444D-AB44-2BC90B5CF709}](https://github.com/user-attachments/assets/fccb3937-b6b9-42d7-80ac-e0f53f3eb19a)
+
+
+---
+
+## ▶️ Getting Started
+
+1. **Clone the Repository**
+
+   ```bash
+   git clone https://github.com/wiktoriamiich/DataStructures.git
+   cd DataStructures
+
+2.**Compile the Program**
 
 ```bash
 g++ main.cpp -o datastructures
 ```
 
-3. Uruchom aplikację:
+3. **Run the Application**
 
 ```bash
 ./datastructures
 ```
+
 

@@ -1,38 +1,46 @@
 # 📚 DataStructures – Interactive Data Structures System in C++
 
-This project offers implementations of fundamental data structures in C++ and provides a simple text-based interface for interactive testing directly from the terminal.
+This project provides an interactive terminal-based system to experiment with key dynamic data structures in C++. It's designed to help users understand how each structure works under the hood, test them in real time, and compare their performance in different scenarios.
 
 ---
 
-## 🧩 Project Features
+## 🧩 What does the project include?
 
-- 🧱 **Dynamic Data Structures**: Implementations include:
-  - Dynamic Array
-  - Singly Linked List with 
-  - Doubly Linked List
-- 🧠 **Manual Memory Management**: Emphasis on understanding memory allocation without relying on the Standard Template Library (STL).
-- 🖥️ **Interactive Console Menu**: Navigate and perform operations on data structures through a user-friendly terminal interface.
-- 📂 **Organized Directory Structure**:
-  - `structures/`: Contains implementations of various data structures.
-  - `menu/`: Manages the display and functionality of the console menu.
-  - `data/`: Holds sample data and test structures.
-  - `utilities/`: Includes helper functions such as data validation and messaging.
+- 🧱 **Implemented data structures**:
+  - Singly linked list *(with and without tail pointer)*
+  - Doubly linked list
+  - Dynamic array
+- 🧠 **Manual memory management** – implemented without using the STL
+- 🖥️ **Interactive console menu** – choose structures and operations
+- ⏱️ **Benchmarking** – measures execution time of each operation
+- 📊 **Theoretical validation** – most time complexities match theoretical expectations
+- 💡 **Educational design** – explore internal mechanics and practical trade-offs
+- 🧰 **Object-Oriented Principles**:
+  - Encapsulation
+  - Inheritance
+  - Polymorphism
+  - Abstraction
 
 ---
 
 ## 📂 Folder Overview
 
-- **`structures/`** – Implementations of data structures (e.g., dynamic array, singly linked list, doubly linked list).
-- **`menu/`** – Code responsible for displaying and handling the console menu.
-- **`data/`** – Sample data, test structures, and placeholder functions.
-- **`utilities/`** – Helper functions like data validation and messaging.
-- **`main.cpp`** – Entry point of the application, integrating all components into a functional menu-driven program.
+- **`structures/`** – Implementations of the data structures
+- **`menu/`** – Interactive terminal menu logic
+- **`data/`** – Sample/test data and structure templates
+- **`utilities/`** – Helper functions (input validation, messages, etc.)
+- **`main.cpp`** – Entry point that connects all components
 
 ---
 
 ## 🧪 How It Works
 
-When you run the application, an interactive **console menu** is displayed. It allows users to select a data structure and perform various operations such as insertion, deletion, and display.
+When launched, the application displays an **interactive console menu** where you can:
+
+- Choose a data structure to work with
+- Perform operations like `pushBack`, `popBack`, `find`, `insert`, `delete`, etc.
+- See live feedback/results in the terminal
+- Benchmark and compare performance across different structures
 
 ![{822E4C46-9BBC-4F27-B3BB-134F1B5AD67D}](https://github.com/user-attachments/assets/f229368b-b463-4746-99b8-74e0cebe74d4)
 
@@ -52,13 +60,13 @@ When you run the application, an interactive **console menu** is displayed. It a
 2.**Compile the Program**
 
 ```bash
-g++ main.cpp -o datastructures
+g++ main.cpp -o DataStructures
 ```
 
 3. **Run the Application**
 
 ```bash
-./datastructures
+./DataStructures
 ```
 
 
